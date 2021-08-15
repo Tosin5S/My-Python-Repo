@@ -23,5 +23,3 @@ def accept_values():
 
 
 accept_values()
-
-# mean()
