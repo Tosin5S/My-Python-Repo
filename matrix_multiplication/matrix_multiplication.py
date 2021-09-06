@@ -13,8 +13,8 @@ def lines(file):
 first_matrix = input("Enter your first txt filename: ")
 second_matrix = input("Enter your second txt filename: ")
 
-f_first = open("first_matrix", "r")
-f_second = open("second_matrix", "r")
+f_first = open(first_matrix, "r")
+f_second = open(second_matrix, "r")
 A = lines(f_first)
 B = lines(f_second)
 
